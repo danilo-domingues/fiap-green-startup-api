@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "a8e0d764-1a56-4901-a956-92c361f1c20c",
+		"name": "Green-Apis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetUserForId",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:7000/Pessoa/PessoaUsuarioCliente/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"Pessoa",
+						"PessoaUsuarioCliente",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000/Usuario/UsuarioLogin/damigue/120293",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"Usuario",
+						"UsuarioLogin",
+						"damigue",
+						"120293"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RegistroPessoaClienteUsuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n            \"nomePessoa\": \"Danilo Domingues Barbosa\",\n            \"rg\": \"493202766\",\n            \"cpf\": \"34519323851\",\n            \"dataNascimento\": \"02/12/1993\",\n            \"uf\": \"SP\",\n            \"cidade\": \"Sao Paulo\",\n            \"endereco\": \"Jose Inocencio da Costa\",\n            \"cep\": \"08151160\",\n            \"usuario\": {\n                \"username\": \"postman\",\n                \"senha\": \"120293\",\n                \"email\": \"danilo.domingues@green.com\",\n                \"ativo\": \"1\",\n                \"emailSecundario\": \"d.domingues.barbosa@gmail.com\"\n            },\n            \"cliente\": {\n                \"ultimaCompra\": null,\n                \"pontos\": null,\n                \"quantidadeCompra\": null,\n                \"idTipoCliente\": 1,\n                \"dadosAdd\": \"{CLIENTE VINCULADO A EMPRESA Itau}\"\n            }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7000/Pessoa/Register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"Pessoa",
+						"Register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "RegistroPessoaClienteUsuario",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n            \"nomePessoa\": \"Danilo Domingues Barbosa\",\n            \"rg\": \"493202766\",\n            \"cpf\": \"34519323851\",\n            \"dataNascimento\": \"02/12/1993\",\n            \"uf\": \"SP\",\n            \"cidade\": \"Sao Paulo\",\n            \"endereco\": \"Jose Inocencio da Costa\",\n            \"cep\": \"08151160\",\n            \"usuario\": {\n                \"username\": \"postman\",\n                \"senha\": \"120293\",\n                \"email\": \"danilo.domingues@green.com\",\n                \"ativo\": \"1\",\n                \"emailSecundario\": \"d.domingues.barbosa@gmail.com\"\n            },\n            \"cliente\": {\n                \"ultimaCompra\": null,\n                \"pontos\": null,\n                \"quantidadeCompra\": null,\n                \"idTipoCliente\": 1,\n                \"dadosAdd\": \"{CLIENTE VINCULADO A EMPRESA Itau}\"\n            }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7000/Pessoa/Register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7000",
+							"path": [
+								"Pessoa",
+								"Register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 19 Apr 2020 22:05:38 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"header\": {\n        \"data\": {\n            \"idPessoa\": 22,\n            \"nomePessoa\": \"Danilo Domingues Barbosa\",\n            \"rg\": \"493202766\",\n            \"cpf\": \"34519323851\",\n            \"dataNascimento\": \"02/12/1993\",\n            \"uf\": \"SP\",\n            \"cidade\": \"Sao Paulo\",\n            \"endereco\": \"Jose Inocencio da Costa\",\n            \"cep\": \"08151160\",\n            \"idUsuario\": 22,\n            \"idCliente\": 3,\n            \"usuario\": {\n                \"idUsuario\": 22,\n                \"username\": \"postman\",\n                \"senha\": \"120293\",\n                \"email\": \"danilo.domingues@green.com\",\n                \"ativo\": \"1\",\n                \"emailSecundario\": \"d.domingues.barbosa@gmail.com\"\n            },\n            \"cliente\": {\n                \"idCliente\": 3,\n                \"ultimaCompra\": null,\n                \"pontos\": null,\n                \"quantidadeCompra\": null,\n                \"idTipoCliente\": 1,\n                \"dadosAdd\": \"{CLIENTE VINCULADO A EMPRESA Itau}\"\n            }\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Consultar compra/compras",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000/Compra/ConsultaCompra/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"Compra",
+						"ConsultaCompra",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NovaCompra",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"idCompra\": 2,\n    \"idTipoPagamento\": 1,\n    \"preco\": \"R$ 3800,00\",\n    \"idProduto\": 2,\n    \"idEmpresa\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7000/Compra/NovaCompra",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"Compra",
+						"NovaCompra"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
