@@ -16,3 +16,12 @@
 /Users/danilodominguesbarbosa/projetos/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/obj/Debug/netcoreapp2.2/Fiap.Green.StartUp.Domain.AssemblyInfo.cs
 /Users/danilodominguesbarbosa/projetos/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/obj/Debug/netcoreapp2.2/Fiap.Green.StartUp.Domain.dll
 /Users/danilodominguesbarbosa/projetos/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/obj/Debug/netcoreapp2.2/Fiap.Green.StartUp.Domain.pdb
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/bin/Debug/netcoreapp2.2/Fiap.Green.StartUp.Domain.deps.json
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/bin/Debug/netcoreapp2.2/Fiap.Green.StartUp.Domain.dll
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/bin/Debug/netcoreapp2.2/Fiap.Green.StartUp.Domain.pdb
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/obj/Debug/netcoreapp2.2/Fiap.Green.StartUp.Domain.csprojAssemblyReference.cache
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/obj/Debug/netcoreapp2.2/Fiap.Green.StartUp.Domain.csproj.CoreCompileInputs.cache
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/obj/Debug/netcoreapp2.2/Fiap.Green.StartUp.Domain.AssemblyInfoInputs.cache
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/obj/Debug/netcoreapp2.2/Fiap.Green.StartUp.Domain.AssemblyInfo.cs
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/obj/Debug/netcoreapp2.2/Fiap.Green.StartUp.Domain.dll
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/obj/Debug/netcoreapp2.2/Fiap.Green.StartUp.Domain.pdb

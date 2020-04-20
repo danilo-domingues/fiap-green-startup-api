@@ -15633,11 +15633,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danilodominguesbarbosa/projetos/fiap-green-startup-api/src/Fiap.Green.StartUp.Api/Fiap.Green.StartUp.Api.csproj",
+      "projectUniqueName": "/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Api/Fiap.Green.StartUp.Api.csproj",
       "projectName": "Fiap.Green.StartUp.Api",
-      "projectPath": "/Users/danilodominguesbarbosa/projetos/fiap-green-startup-api/src/Fiap.Green.StartUp.Api/Fiap.Green.StartUp.Api.csproj",
+      "projectPath": "/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Api/Fiap.Green.StartUp.Api.csproj",
       "packagesPath": "/Users/danilodominguesbarbosa/.nuget/packages/",
-      "outputPath": "/Users/danilodominguesbarbosa/projetos/fiap-green-startup-api/src/Fiap.Green.StartUp.Api/obj/",
+      "outputPath": "/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Api/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -15654,8 +15654,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/Users/danilodominguesbarbosa/projetos/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/Fiap.Green.StartUp.Domain.csproj": {
-              "projectPath": "/Users/danilodominguesbarbosa/projetos/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/Fiap.Green.StartUp.Domain.csproj"
+            "/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/Fiap.Green.StartUp.Domain.csproj": {
+              "projectPath": "/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/Fiap.Green.StartUp.Domain.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danilodominguesbarbosa/projetos/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/Fiap.Green.StartUp.Domain.csproj": {}
+    "/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/Fiap.Green.StartUp.Domain.csproj": {}
   },
   "projects": {
-    "/Users/danilodominguesbarbosa/projetos/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/Fiap.Green.StartUp.Domain.csproj": {
+    "/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/Fiap.Green.StartUp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danilodominguesbarbosa/projetos/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/Fiap.Green.StartUp.Domain.csproj",
+        "projectUniqueName": "/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/Fiap.Green.StartUp.Domain.csproj",
         "projectName": "Fiap.Green.StartUp.Domain",
-        "projectPath": "/Users/danilodominguesbarbosa/projetos/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/Fiap.Green.StartUp.Domain.csproj",
+        "projectPath": "/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/Fiap.Green.StartUp.Domain.csproj",
         "packagesPath": "/Users/danilodominguesbarbosa/.nuget/packages/",
-        "outputPath": "/Users/danilodominguesbarbosa/projetos/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/obj/",
+        "outputPath": "/Users/danilodominguesbarbosa/Documents/GitHub/fiap-green-startup-api/src/Fiap.Green.StartUp.Domain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -8,6 +8,7 @@ using Fiap.Green.StartUp.Domain.Services.UsuarioServices;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Fiap.Green.StartUp.Domain.Services.CompraServices;
+using Fiap.Green.StartUp.Domain.Services.EmpresaServices;
 
 namespace Fiap.Green.StartUp.Api.Configuration
 {
@@ -28,6 +29,8 @@ namespace Fiap.Green.StartUp.Api.Configuration
             services.AddTransient<ICompraRepository, CompraRepository>();
             services.AddTransient<ICompraServices, CompraServices>();
 
+            services.AddTransient<IEmpresaRepository, EmpresaRepository>();
+            services.AddTransient<IEmpresaServices, EmpresaServices>();
 
             return services;
         }
