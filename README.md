@@ -1,1 +1,1 @@
-# fiap-green-api
+# fiap-green-startup-api
