@@ -185,6 +185,76 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "GetEmpresaForId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000/Empresa/GetEmpresaForId/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"Empresa",
+						"GetEmpresaForId",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CadastrarEmpresa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nomeEmpresa\": \"KaBuM! Comércio Eletrônico S.A\",\n    \"razaoSocial\": \"KaBuM!\",\n    \"cnpj\": \"05.570.714/0001-59\",\n    \"segmentoEmpresa\": \"Informatica\",\n    \"programaGreen\": \"1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7000/Empresa/CadastrarEmpresa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"Empresa",
+						"CadastrarEmpresa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GettAllEmpresas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7000/Empresa/Empresas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7000",
+					"path": [
+						"Empresa",
+						"Empresas"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
